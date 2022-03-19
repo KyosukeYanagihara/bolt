@@ -3,3 +3,277 @@
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header_container {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  z-index: 9999;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_icon {
+  padding: 15px 0;
+  color: #4e4e4e;
+  font-size: 30px;
+}
+
+.header_contact {
+  background-color: #74cfae;
+  color: #fff;
+  padding: 14px 12px;
+  font-size: 12px;
+  transition: all .3s;
+}
+
+.header_contact:hover {
+  color: #333
+}
+
+/* THEME */
+.theme_container {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.theme_inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.theme {
+  margin-top: 250px;
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+
+.sub_theme {
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+  margin-bottom: 250px;
+}
+
+/* WHAT WE CAN DO */
+.what_we_can_do_container {
+  background-color: #74cfae;
+  width: 100%;
+}
+
+.what_we_can_do_inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.what_we_can_do_img img {
+  margin-top: 50px;
+}
+
+.what_we_can_do_theme {
+  width: 752px;
+  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.what_we_can_do_theme h3 {
+  font-size: 24px;
+}
+
+.what_we_can_do_theme p {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* OUR LATEST WORK */
+.our_latest_work_container {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.our_latest_work_inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our_latest_work_theme {
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: #333;
+}
+
+.our_latest_work_imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.our_latest_work_imgs img {
+  width: 300px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+  opacity: .7;
+  transition: all .3s;
+}
+
+.our_latest_work_imgs img:hover {
+  opacity: 1;
+}
+
+.our_latest_work_imgs a:nth-child(3n) img {
+  margin-right: 0;
+}
+
+.our_latest_work_imgs a:nth-child(n+4) img {
+  margin-bottom: 0;
+}
+.our_latest_work_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 70px 0;
+  text-align: center;
+}
+
+.our_latest_work_text p {
+  width: 540px;
+  padding-right: 90px;
+}
+
+.mails_me a {
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  color: #fff;
+  transition: all .3s;
+}
+
+.mails_me a:hover {
+  color: #333
+}
+
+/* OUR SKILLS */
+.our_skills_container {
+  background-color: #4e4e4e;
+  width: 100%;
+}
+
+.our_skills_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our_skill_theme {
+  padding: 70px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.our_skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+.our_skills div img {
+  width: 140px;
+}
+
+.our_skills div {
+  margin-right: 180px;
+  text-align: center;
+}
+
+.our_skills div:last-child {
+  margin-right: 0;
+}
+
+.our_skills p {
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+/* SNS */
+.sns_container {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.sns_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sns_icon {
+  margin: 200px;
+}
+
+.sns_icon a {
+  width: 185px;
+  text-align: center;
+  transition: all .3s;
+  padding: 30px 0;
+}
+
+.sns_icon a:hover {
+  background-color: #fff;
+}
+
+.sns_icon li {
+  font-size: 40px;
+  color: #74cfae;
+}
+
+/* FOOTRT */
+.footer_container {
+  background-color: #74cfae;
+  width: 100%;
+}
+
+.footer_inner {
+  text-align: right;
+  padding: 20px 0 25px 0;
+  color: #fff;
+}
