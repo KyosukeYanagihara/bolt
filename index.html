@@ -4,32 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="This is my portfolio site." />
+    <meta name="Keywords" content="Sbolt, bootstrap, portfolio" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/lib/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Bolt - Free Bootstrap 3 Theme</title>
-    <meta name="description" content="This is my portfolio site." />
-    <meta name="Keywords" content="Sbolt, bootstrap, portfolio" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <wrapper>
+      <!-- HEADER -->
       <header class="header_container">
         <div class="inner header_inner">
           <div class="header_icon fas fa-bolt"></div>
-          <a href="#" class="header_contact">contact</a>
+          <div class="contact">
+            <a href="#" class="header_contact">contact</a>
+            <div class="hamburger-menu">
+                <label class="menu-btn">
+                  <span></span>
+                </label>
+              </div>
+          </div>
         </div>
       </header>
-
       <main class="main">
-        <div class="theme_container">
+        <!-- THEME -->
+        <div class="white_container theme_container">
           <div class="inner theme_inner">
-            <h3 class="theme">Bolt Theme</h3>
+            <h1 class="theme">Bolt Theme</h1>
             <p class="sub_theme">FREE BOOTSTRAP THEMES</p>
           </div>
         </div>
-
+        <!-- WHAT WE CAN DO -->
         <section class="what_we_can_do_container">
           <div class="inner what_we_can_do_inner">
             <div class="what_we_can_do_img">
@@ -41,60 +49,61 @@
             </article>
           </div>
         </section>
-
-        <article class="our_latest_work_container">
+        <!-- OUR LATEST WORK -->
+        <article class="white_container">
           <div class="inner our_latest_work_inner">
             <div class="our_latest_work_theme"><h3>OUR LATEST WORK</h3></div>
-            <div class="our_latest_work_imgs inner">
-                <a href="#"><img src="./img/01.jpg" alt="画像"></a>
-                <a href="#"><img src="./img/02.jpg" alt="画像"></a>
-                <a href="#"><img src="./img/03.jpg" alt="画像"></a>
-                <a href="#"><img src="./img/04.jpg" alt="画像"></a>
-                <a href="#"><img src="./img/05.jpg" alt="画像"></a>
-                <a href="#"><img src="./img/06.jpg" alt="画像"></a>
-            </div>
+            <ul class="our_latest_work_imgs">
+              <li><a href="#"><img src="./img/01.jpg" alt="画像"></a></li>
+              <li><a href="#"><img src="./img/02.jpg" alt="画像"></a></li>
+              <li><a href="#"><img src="./img/03.jpg" alt="画像"></a></li>
+              <li><a href="#"><img src="./img/04.jpg" alt="画像"></a></li>
+              <li><a href="#"><img src="./img/05.jpg" alt="画像"></a></li>
+              <li><a href="#"><img src="./img/06.jpg" alt="画像"></a></li>
+            </ul>
             <div class="our_latest_work_text">
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
               <div class="mails_me"><a href="#">Email Me!</a></div>
             </div>
           </div>
         </article>
-
+        <!-- OUR SKILLS -->
         <section class="our_skills_container">
           <div class="inner our_skills_inner">
             <div class="our_skill_theme"><h3>OUR SKILLS</h3></div>
             <article class="our_skills inner">
               <div>
-                <img src="./img/circle_01.png" alt="">
+                <img src="./img/circle_01.png" alt="画像">
                 <p>JaveScript</p>
               </div>
               <div>
-                <img src="./img/circle_02.png" alt="">
+                <img src="./img/circle_02.png" alt="画像">
                 <p>Bootstrap</p>
               </div>
               <div>
-                <img src="./img/circle_03.png" alt="">
+                <img src="./img/circle_03.png" alt="画像">
                 <p>WoodPress</p>
               </div>
               <div>
-                <img src="./img/circle_04.png" alt="">
+                <img src="./img/circle_04.png" alt="画像">
                 <p>PhotoShop</p>
               </div>
             </article>
           </div>
         </section>
-
-        <nav class="sns_container">
-          <div class="inner sns_inner">
+        <!-- SNS -->
+        <nav class="white_container">
+          <div class="inner">
             <ul class="sns_icon sns_inner">
-              <a href="#"><li class="fab fa-facebook-f"></li></a>
-              <a href="#"><li class="fas fa-basketball-ball"></li></a>
-              <a href="#"><li class="fab fa-twitter"></li></a>
-              <a href="#"><li class="fas fa-envelope"></li></a>
+              <li><a href="#" class="fab fa-facebook-f"></a></li>
+              <li><a href="#" class="fab fa-dribbble"></a></li>
+              <li><a href="#" class="fab fa-twitter"></a></li>
+              <li><a href="#" class="fas fa-envelope"></a></li>
             </ul>
           </div>
         </nav>
       </main>
+      <!-- FOOTER -->
       <footer class="footer_container">
         <div class="inner footer_inner">
           <p>
